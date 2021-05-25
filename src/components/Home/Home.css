@@ -1,0 +1,43 @@
+.home {
+    height: 85vh;
+    width: 100%;
+    position: relative;
+}
+
+.home__background {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(65%);
+}
+
+.home__link {
+    position: absolute;
+    top: 60%;
+    height: max-content;
+    width: max-content;
+    text-decoration: none;
+    padding: 3px 15px;
+    padding-bottom: 7px;
+    border: 4px solid rgb(5, 148, 170);
+    color: rgb(186,234,238);
+    background-color: rgb(25, 36, 42);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.home__link:hover {
+    filter: brightness(140%);
+    box-shadow: 0px 0px 25px rgba(186,234,238, 0.4);
+}
+
+.home__h1 {
+    position: absolute;
+    top: 35%;
+    width: 53%;
+    font-weight: 500;
+    color: rgb(206, 246, 250);
+    text-align: center;
+}

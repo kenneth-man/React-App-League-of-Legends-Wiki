@@ -1,0 +1,50 @@
+.navbar {
+    height: 15vh;
+    width: 100%;
+    /*when clicking on button moves all slightly for some reason if using 'space-evenly'*/
+    /* justify-content: space-evenly;*/
+    background-color: rgb(25, 36, 42);
+    border-bottom: 1px solid rgba(186,234,238, 0.5);
+}
+
+.navbar__link,
+.navbar__link-logo {
+    height: max-content;
+    width: max-content;
+    text-decoration: none;
+}
+
+.navbar__link {
+    padding: 3px 15px;
+    padding-bottom: 7px;
+    border: 3px solid rgb(5, 148, 170);
+    color: rgb(186,234,238);
+    background-color: rgb(46, 66, 77);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 150px;
+}
+
+.navbar__link:hover {
+    filter: brightness(130%);
+}
+
+.navbar__active {
+    border: 3px solid rgb(186,234,238);
+    background-color: rgb(71, 103, 119);
+}
+
+.navbar__logo {
+    height: 110px;
+    width: 300px;
+    object-fit: cover;
+    margin-left: 100px;
+}
+
+/*don't want :hover or :active styling to apply to homepage logo button*/
+.navbar__link-logo {
+    border: none !important;
+    color: transparent !important;
+    background-color: transparent !important;
+}

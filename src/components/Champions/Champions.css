@@ -1,0 +1,148 @@
+.champions {
+    height: max-content;
+    min-height: 85vh;
+    width: 100%;
+    background-color: rgb(44, 63, 73);
+    align-items: flex-start !important;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.champions__box,
+.champions__img {
+    border-radius: 5px;
+}
+
+.champions__box {
+    position: relative;
+    height: max-content;
+    width: max-content;
+    margin-left: 7.5px;
+    margin-bottom: 7.5px;
+    filter: brightness(80%);
+}
+
+.champions__box:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(255,255,255,0.8);
+    filter: brightness(90%);
+}
+
+.champions__box--info,
+.champions__box--panel {
+    position: absolute;
+}
+
+.champions__box--info {
+    top: 0%;
+}
+
+.champions__box--panel {
+    top: 77.5%;
+}
+
+.champions__box--info {
+    height: 425px;
+    width: 100%;
+    padding: 7.5px;
+}
+
+.champions__stats {
+    height: 300px;
+    width: 100%;
+    overflow-y: auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgb(0,0,0,0.7);
+}
+
+.champions__stats::-webkit-scrollbar {
+    width: 7px;
+}
+
+.champions__stats::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.champions__stats::-webkit-scrollbar-thumb {
+    background: goldenrod;
+    border-radius: 10px;
+}
+
+.champions__stats::-webkit-scrollbar-thumb:hover {
+    background: rgb(161, 122, 24);
+}
+
+.champions__btn {
+    height: max-content;
+    width: max-content;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 63, 73);
+}
+
+.champions__btn:hover {
+    cursor: pointer;
+    background-color: rgb(68, 98, 114);
+}
+
+.champions__h1,
+.champions__h2,
+.champions__h3,
+.champions__h4 {
+    color: #fff;
+    text-align: center;
+}
+
+.champions__h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.champions__h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.champions__h3 {
+    font-size: 16px;
+}
+
+.champions__h4 {
+    font-size: 20px;
+}
+
+.champions__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.champions__row {
+    display: flex;
+    align-items: center;
+}
+
+.champions__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.champions__transition {
+    transition: all 0.2s;
+}
+
+.champions__hidden {
+    opacity: 0%;
+    display: none;
+    visibility: hidden;
+}

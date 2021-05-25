@@ -1,0 +1,44 @@
+button,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Heebo';
+    font-weight: 300;
+}
+
+span {
+    font-weight: 600;
+    color: goldenrod;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.rounded {
+    border-radius: 1px;
+}
+
+.transition {
+    transition: all 0.2s;
+}   
+
+.spinner {
+    position: absolute;
+    top: 45%;
+}
